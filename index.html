@@ -16,7 +16,7 @@
   
 <div><b>Abstract:</b> Self-attention-based networks have shown remarkable performance in parallel training and global context modeling. However, it is weak in local dependency capturing, especially in data with strong local correlations such as utterances.  To address this issue, we propose a method that mines linguistic information from the original text by utilizing semantic dependency, where the semantic relationship between nodes serves as prior knowledge to refine the self-attention distribution.  Furthermore, to better fuse local contextual information, we introduce a one-dimensional convolution neural network (CNN) to produce the query and value matrices (Q and V) in the self-attention mechanism, given the strong correlation between input characters. Then, we apply this variant of self-attention networks to text-to-speech (TTS) tasks and propose a non-autoregressive neural TTS. Moreover, to enhance pronunciation accuracy by separating final tones from phonemes as independent variables and providing clear guidance on vocal rhythm. Experimental results show that our model yields good performance in speech synthesis. Specifically, the proposed method yields significant improvement for the processing of pause, stress, and intonation in speech.</div>
 
-<p style="text-align: center;"><img src="/speechs/demo/mian.png" alt=""></p>
+<div style="text-align: center;"><img src="/speechs/demo/mian.png" width="50%" alt=""></div>
   
 <h4>1. Comparing the naturalness of different systems(FastSpeech2 <b>VS</b> Bert-Dep <b>VS</b> Our): </h4>
 <blockquote>
